@@ -40,7 +40,7 @@ public class Main {
                 .map(person -> person.getFamily())
                 .sorted(Comparator.naturalOrder())
                 .collect(Collectors.toList());
-        System.out.println("Список пригодных к военной службе: " + armyEducationPersonsList);
+        System.out.println("Список людей с высшим образованием: " + armyEducationPersonsList);
 
     }
 }
